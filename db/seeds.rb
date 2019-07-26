@@ -1,8 +1,3 @@
-Card.destroy_all
-Game.destroy_all
-GameCard.destroy_all
-
-
 cards = [
   {phrase: "Lit", acronym: "If something is lit, it means it's super cool or on fire.
 Last night's party was lit.", hint: "COOL", img_url: "https://steamuserimages-a.akamaihd.net/ugc/609476610127244242/AA3757BEFCE719580024B3296AD112E0B33EEB78/", punishment: nil},
