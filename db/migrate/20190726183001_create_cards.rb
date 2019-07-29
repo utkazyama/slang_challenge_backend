@@ -6,6 +6,7 @@ class CreateCards < ActiveRecord::Migration[5.2]
       t.string :hint
       t.string :punishment
       t.string :img_url
+      t.references :user, foreign_key: true
 
       t.timestamps
     end
