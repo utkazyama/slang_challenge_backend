@@ -11,7 +11,7 @@ class UsersController < ApplicationController
 
 
   def update
-   user = User.find_by(id: params[‘id’])
+   user = User.find_by(id: params['id'])
    user.update(name: params['name'], img_url: params['img_url'])
    render json: user
   end
