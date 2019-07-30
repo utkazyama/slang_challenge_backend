@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :misses
   resources :users
   resources :cards
   resources :games
