@@ -4,15 +4,11 @@ class UsersController < ApplicationController
     render json: users
   end
 
-  def login
+  def create
     user = User.find_or_create_by(name: params['name'])
     render json: user
   end
 
-  def create
-    user = User.create(name: params['name'], img_url:['img_url'])
-    render json: user
-  end
 
   def update
    user = User.find_by(id: params[‘id’])
