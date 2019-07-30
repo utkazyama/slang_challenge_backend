@@ -4,6 +4,11 @@ class UsersController < ApplicationController
     render json: users
   end
 
+  def login
+    user = User.find_or_create_by(name: params['name'])
+    render json: user
+  end
+
   def create
     user = User.create(name: params['name'], img_url:['img_url'])
     render json: user
@@ -16,7 +21,7 @@ class UsersController < ApplicationController
   end
 
   def destroy
-   user = User.find(params[‘id’])
+   user = User.find(params['id'])
    user.destroy
   end
 end
