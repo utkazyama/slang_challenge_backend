@@ -11,7 +11,7 @@ class CardsController < ApplicationController
   end
 
   def update
-   card = Card.find_by(id: params[‘id’])
+   card = Card.find_by(id: params['id'])
    card.update(phrase: params['phrase'], acronym: params['acronym'], hint: params['hint'], img_url: params['img_url'], punishment: params['punishment'], user_id: params['user_id'])
    render json: card
   end
