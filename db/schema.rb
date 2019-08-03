@@ -44,6 +44,9 @@ ActiveRecord::Schema.define(version: 2019_07_29_162855) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "img_url"
+    t.integer "total_score"
+    t.integer "total_game_played"
+    t.integer "accuracy_rate"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

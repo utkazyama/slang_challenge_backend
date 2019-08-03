@@ -12,7 +12,7 @@ class UsersController < ApplicationController
 
   def update
    user = User.find_by(id: params['id'])
-   user.update(name: params['name'], img_url: params['img_url'])
+   user.update(total_score: params['total_score'], total_game_played: params['total_game_played'], accuracy_rate: params['accuracy_rate'])
    render json: user
   end
 

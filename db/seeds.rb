@@ -1,15 +1,15 @@
 users = [
-  {name: "Jooyon Won", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "Markus Sanders", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "Yuta Katsuyama", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "Alex Hare", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "Emily Roulund", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "John Linatoc", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "Derek Townsend", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "Joel Seng", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "Matt Orvin", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "Marty Spiccuza", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"},
-  {name: "o", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png"}
+  {name: "Admin", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "Markus", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "Yuta", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "Alex", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "Emily", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "John", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "Derek", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "Joel", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "Matt", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "Marty", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0},
+  {name: "o", img_url: "https://www.shareicon.net/download/2015/08/14/84875_add_512x512.png", total_score: 0, total_game_played: 0, accuracy_rate: 0}
 ]
 users.each {|user| User.create(user)}
 
